@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Barlow Condensed';
+}
+
+html,body{
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+
+a,button{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header{
+  margin: 2rem 0;
+}
+
+h1{
+  text-align: center;
+}
+
+.password{
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.password button{
+  padding: .75rem 1.5rem;
+  font-size: 1.25rem;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+#passwords{
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+.copy{
+  background: transparent;
+  border: 1px solid;
+  padding: 0 1rem;
+}
+
+#passwords li{
+  margin: 1rem 0;
+}
